@@ -1,0 +1,13 @@
+.sidebar-option {
+  border-radius: 3px 0px 0px 3px;
+  font-size: max(1vw, 10px);
+}
+.sidebar-option.active {
+  background-color: #fff0ed;
+  border-color: tomato;
+}
+@media (max-widht: 900px) {
+  .sidebar .sidebar-options .sidebar-option p {
+    display: none;
+  }
+}

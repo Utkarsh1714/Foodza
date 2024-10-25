@@ -1,0 +1,27 @@
+.header {
+  background: url("/header.png") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-content {
+  animation: fadeIn 3s;
+}
+.header-content h2 {
+  line-height: 1.2;
+}
+@media (max-width: 1050px) {
+  .header-content {
+    max-width: 45%;
+  }
+}
+@media (max-width: 750px) {
+  .header-content {
+    max-width: 65%;
+  }
+  .header-content h2 {
+    font-size: 1rem;
+  }
+  .header-content button {
+    padding: 2vw 4vw;
+  }
+}

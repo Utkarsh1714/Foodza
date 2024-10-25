@@ -1,0 +1,4 @@
+.login-popup-container {
+  width: max(23vw, 330px);
+  animation: fadeIn 0.5s;
+}

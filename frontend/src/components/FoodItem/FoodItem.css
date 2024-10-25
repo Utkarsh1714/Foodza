@@ -1,0 +1,4 @@
+.food-item {
+  transition: 0.3s;
+  animation: fadeIn 1s;
+}
