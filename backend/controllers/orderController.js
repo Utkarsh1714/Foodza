@@ -13,7 +13,7 @@ const razorpay = new Razorpay({
 });
 
 const placeOrder = async (req, res) => {
-  const frontend_url = "http://localhost:5173"; // Fixed typo
+  const frontend_url = "https://foodza-frontend.onrender.com"; // Fixed typo
 
   try {
     // Create new order in the database
