@@ -5,7 +5,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const Order = () => {
-  const frontend_url = "http://localhost:5173";
+  const frontend_url = "https://foodza-frontend.onrender.com";
   const { getTotalCartAmount, token, food_list, cartItems, url } =
     useContext(StoreContext);
 
