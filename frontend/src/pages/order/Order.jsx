@@ -500,7 +500,7 @@ const Order = () => {
             Pay Online
           </button>
           <button
-            className="border-none text-white bg-[tomato] py-1 p-0 rounded-[4px] mt-[30px]"
+            className="border-none text-white bg-[tomato] py-3 -mt-1 p-0 rounded-[4px] mt-[30px]"
             style={{ width: "max(15vw,200px)" }}
             type="submit"
             onClick={() => setPaymentMethod("cod")}
