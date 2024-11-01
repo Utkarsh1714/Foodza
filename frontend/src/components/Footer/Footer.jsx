@@ -9,7 +9,7 @@ const Footer = () => {
         className="footer text-[#d9d9d9] bg-[#1e1e1e] flex flex-col items-center gap-5 py-5 px-4 pt-20 mt-[100px]"
         id="footer"
       >
-        <div className="grid w-full grid-cols-3 footer-content ">
+        <div className="grid items-center justify-center w-full grid-cols-3 footer-content">
           <div className="flex flex-col items-start gap-5 footer-content-left">
             <h1 className="text-4xl font-bold text-white">
               Food<span className="text-orange-500">z</span>a
